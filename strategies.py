@@ -10,7 +10,7 @@ from chess.engine import PlayResult
 import random
 from engine_wrapper import MinimalEngine
 from typing import Any
-
+from bengal_bot import BengalEngine
 
 class ExampleEngine(MinimalEngine):
     """An example engine that all homemade engines inherit."""
