@@ -9,7 +9,7 @@ import time
 from Bengal import Searcher, Board, evaluate
 from Bengal import Board
 
-BOOK_PATH = './books/bin/Cerebellum_Light_Poly.bin'
+BOOK_PATH = './books/bin/M11_2.bin'
 
 class BengalEngine(MinimalEngine):
     def __init__(self, commands: COMMANDS_TYPE, options: OPTIONS_TYPE, stderr: Optional[int],
