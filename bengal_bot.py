@@ -44,7 +44,7 @@ class BengalEngine(MinimalEngine):
         move = Move.null()
         t1 = time.time()
         t_search = 0
-        for d, pv in self.searcher._search_at_depth(b, 8, can_null=False):
+        for d, pv in self.searcher._search_at_depth(b, 100, can_null=True):
             move = pv[0]
             t2 = time.time()
             t_search += t2 - t1
